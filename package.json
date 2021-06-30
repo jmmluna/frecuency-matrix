@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "parcel -p 9000 ./index.html --no-cache",
-        "build": "parcel build ./index.html --public-url ./ --no-cache --no-source-maps",
+        "start": "parcel -p 9000 ./index.html --no-cache --out-dir dist-dev",
+        "build": "parcel build ./index.html --public-url ./ --no-cache --no-source-maps --out-dir dist-prod",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
